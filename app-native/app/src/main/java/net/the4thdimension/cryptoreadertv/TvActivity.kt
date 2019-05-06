@@ -1,12 +1,13 @@
 package net.the4thdimension.cryptoreadertv
 
 import android.os.Bundle
+import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.activity_main.*
 
-class MainActivity : BaseActivity() {
+class TvActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -17,6 +18,8 @@ class MainActivity : BaseActivity() {
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                     .setAction("Action", null).show()
         }
+
+        Log.d("this", "name: " + this::class.simpleName)
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
