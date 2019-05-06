@@ -5,6 +5,7 @@
 
     <application
         android:allowBackup="false"
+        android:banner="@drawable/installer_banner_tv_3"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
@@ -34,4 +35,13 @@
         </activity>
     </application>
 
+    <uses-feature
+        android:name="android.software.leanback"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
 </manifest>
