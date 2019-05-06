@@ -1,4 +1,4 @@
-package net.the4thdimension.cryptoreadertv
+package net.the4thdimension.cryptoreadertv.views
 
 import androidx.appcompat.app.AppCompatActivity
 

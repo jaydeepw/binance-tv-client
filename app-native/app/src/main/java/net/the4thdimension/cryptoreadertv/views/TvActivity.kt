@@ -1,4 +1,4 @@
-package net.the4thdimension.cryptoreadertv
+package net.the4thdimension.cryptoreadertv.views
 
 import android.os.Bundle
 import android.util.Log
@@ -6,6 +6,7 @@ import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
 import androidx.fragment.app.FragmentActivity
+import net.the4thdimension.cryptoreadertv.R
 
 class TvActivity : FragmentActivity() {
 

@@ -1,10 +1,11 @@
-package net.the4thdimension.cryptoreadertv
+package net.the4thdimension.cryptoreadertv.views
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import net.the4thdimension.cryptoreadertv.R
 
 class MainFragment : Fragment() {
 

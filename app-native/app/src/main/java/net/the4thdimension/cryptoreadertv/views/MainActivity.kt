@@ -1,4 +1,4 @@
-package net.the4thdimension.cryptoreadertv
+package net.the4thdimension.cryptoreadertv.views
 
 import android.os.Bundle
 import android.view.Menu
@@ -6,6 +6,7 @@ import android.view.MenuItem
 import android.widget.Toast
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.activity_main.*
+import net.the4thdimension.cryptoreadertv.R
 
 class MainActivity : BaseActivity() {
 
