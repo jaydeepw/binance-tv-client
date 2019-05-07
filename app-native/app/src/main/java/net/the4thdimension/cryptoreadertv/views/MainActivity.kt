@@ -3,7 +3,6 @@ package net.the4thdimension.cryptoreadertv.views
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import android.widget.Toast
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.activity_main.*
 import net.the4thdimension.cryptoreadertv.R
@@ -20,7 +19,7 @@ class MainActivity : BaseActivity() {
                     .setAction("Action", null).show()
         }
 
-        Toast.makeText(this, "Main activity", Toast.LENGTH_LONG).show()
+        // Toast.makeText(this, "Main activity", Toast.LENGTH_LONG).show()
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
