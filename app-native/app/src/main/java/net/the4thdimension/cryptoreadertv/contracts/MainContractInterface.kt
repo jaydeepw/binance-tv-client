@@ -1,8 +1,9 @@
 package net.the4thdimension.cryptoreadertv.contracts
 
+import net.the4thdimension.cryptoreadertv.models.datasource.MainDataSource
 import net.the4thdimension.cryptoreadertv.views.BaseView
 
-interface ContractInterface {
+interface MainContractInterface {
 
     interface View: BaseView {
         fun initView()
@@ -13,8 +14,5 @@ interface ContractInterface {
         fun onData()
     }
 
-    interface Model {
-        fun getData(): List<String>
-    }
-
+    interface Model : MainDataSource
 }
